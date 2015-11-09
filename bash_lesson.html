@@ -62666,6 +62666,218 @@ head $2 &quot;$1&quot; | tail $3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="reverse">  GNU nano 2.0.6                           File: middle.sh                                                             </span>
 
 <span class="reverse">Save modified buffer (ANSWERING &quot;No&quot; WILL DESTROY CHANGES) ?                                                           </span>
@@ -62763,219 +62975,219 @@ usage: grep [-abcDEFGHhIiJLlmnOoqRSsUVvwxZ] [-A num] [-B num] [-C[num]]
         [-e pattern] [-f file] [--binary-files=value] [--color=when]
         [--context[=num]] [--directories=action] [--label] [--line-buffered]
         [--null] [pattern] [file ...]
-<span class="bold"><span class="f2">mboisson<span class="bold"><span class="f4"> ~/data/Users/nelle/writing $</span></span></span></span> man 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<span class="bold"><span class="f2">mboisson<span class="bold"><span class="f4"> ~/data/Users/nelle/writing $</span></span></span></span> man grep 
+
+GREP(1)                   BSD General Commands Manual                  GREP(1)
+
+<span class="bold">NAME</span>
+     <span class="bold">grep</span>, <span class="bold">egrep</span>, <span class="bold">fgrep</span>, <span class="bold">zgrep</span>, <span class="bold">zegrep</span>, <span class="bold">zfgrep</span> -- file pattern searcher
+
+<span class="bold">SYNOPSIS</span>
+     <span class="bold">grep</span> [<span class="bold">-abcdDEFGHhIiJLlmnOopqRSsUVvwxZ</span>] [<span class="bold">-A</span> <span class="underline">num] [<span class="bold">-B</span></span> <span class="underline">num] [<span class="bold">-C</span></span>[<span class="underline">num]] [<span class="bold">-e</span></span> <span class="underline">pattern] [<span class="bold">-f</span></span> <span class="underline">file]</span>
+<span class="underline">          [<span class="bold">--binary-files</span></span>=<span class="underline">value] [<span class="bold">--color</span></span>[=<span class="underline">when]] [<span class="bold">--colour</span></span>[=<span class="underline">when]] [<span class="bold">--context</span></span>[=<span class="underline">num]] [<span class="bold">--label</span></span>]
+          [<span class="bold">--line-buffered</span>] [<span class="bold">--null</span>] [<span class="underline">pattern] [<span class="underline">file <span class="underline">...]</span></span></span>
+
+<span class="underline"><span class="underline"><span class="underline"><span class="bold">DESCRIPTION</span></span></span></span>
+     The <span class="bold">grep</span> utility searches any given input files, selecting lines that match one or more patterns.  By
+     default, a pattern matches an input line if the regular expression (RE) in the pattern matches the
+     input line without its trailing newline.  An empty expression matches every line.  Each input line
+     that matches at least one of the patterns is written to the standard output.
+
+     <span class="bold">grep</span> is used for simple patterns and basic regular expressions (BREs); <span class="bold">egrep</span> can handle extended regu-
+     lar expressions (EREs).  See re_format(7) for more information on regular expressions.  <span class="bold">fgrep</span> is
+     quicker than both <span class="bold">grep</span> and <span class="bold">egrep</span>, but can only handle fixed patterns (i.e. it does not interpret regu-
+     lar expressions).  Patterns may consist of one or more lines, allowing any of the pattern lines to
+     match a portion of the input.
+
+     <span class="bold">zgrep</span>, <span class="bold">zegrep</span>, and <span class="bold">zfgrep</span> act like <span class="bold">grep</span>, <span class="bold">egrep</span>, and <span class="bold">fgrep</span>, respectively, but accept input files com-
+     pressed with the compress(1) or gzip(1) compression utilities.
+
+     The following options are available:                                                                                                   
+                                                                                                                                            
+     <span class="bold">-A</span> <span class="underline">num, <span class="bold">--after-context</span></span>=<span class="underline">num</span>                                                                                                            
+<span class="underline">             Print <span class="underline">num lines of trailing context after each match.  See also the <span class="bold">-B</span></span></span> and <span class="bold">-C</span> options.<span class="underline">                                         
+</span>                                                                                                                                            
+     <span class="bold">-a</span>, <span class="bold">--text</span>                                                                                                                             
+             Treat all files as ASCII text.  Normally <span class="bold">grep</span> will simply print ``Binary file ... matches'' if                                 
+             files contain binary characters.  Use of this option forces <span class="bold">grep</span> to output lines matching the                                  
+             specified pattern.                                                                                                             
+                                                                                                                                            
+     <span class="bold">-B</span> <span class="underline">num, <span class="bold">--before-context</span></span>=<span class="underline">num</span>                                                                                                           
+<span class="underline">             Print <span class="underline">num lines of leading context before each match.  See also the <span class="bold">-A</span></span></span> and <span class="bold">-C</span> options.<span class="underline">                                         
+</span>                                                                                                                                            
+     <span class="bold">-b</span>, <span class="bold">--byte-offset</span>                                                                                                                      
+             The offset in bytes of a matched pattern is displayed in front of the respective matched line.                                 
+                                                                                                                                            
+     <span class="bold">-C</span>[<span class="underline">num, <span class="bold">--context</span></span>=<span class="underline">num]</span>                                                                                                                 
+<span class="underline">             Print <span class="underline">num lines of leading and trailing context surrounding each match.  The default is 2 and</span>                                  
+<span class="underline">             is equivalent to <span class="bold">-A</span></span></span> <span class="underline">2 <span class="bold">-B</span></span> <span class="underline">2.  Note: no whitespace may be given between the option and its argu-<span class="underline">                                 
+</span>             ment.                                                                                                                          
+                                                                                                                                            
+     <span class="bold">-c</span></span>, <span class="bold">--count</span><span class="underline">                                                                                                                            
+</span>             Only a count of selected lines is written to standard output.                                                                  
+                                                                                                                                            
+     <span class="bold">--colour</span>=[<span class="underline">when, <span class="bold">--color</span></span>=[<span class="underline">when]]</span>                                                                                                        
+<span class="underline">             Mark up the matching text with the expression stored in GREP_COLOR environment variable.  The                                  
+             possible values of when can be `never', `always' or `auto'.                                                                    
+                                                                                                                                            
+     <span class="bold">-D</span></span> <span class="underline">action, <span class="bold">--devices</span></span>=<span class="underline">action                                                                                                            
+             Specify the demanded action for devices, FIFOs and sockets.  The default action is `read',                                     
+             which means, that they are read as if they were normal files.  If the action is set to `skip',                                 
+             devices will be silently skipped.                                                                                              
+                                                                                                                                            
+     <span class="bold">-d</span></span> <span class="underline">action, <span class="bold">--directories</span></span>=<span class="underline">action                                                                                                        
+             Specify the demanded action for directories.  It is `read' by default, which means that the                                    
+             directories are read in the same manner as normal files.  Other possible values are `skip' to                                  
+             silently ignore the directories, and `recurse' to read them recursively, which has the same                                    
+             effect as the <span class="bold">-R</span></span> and <span class="bold">-r</span> option.<span class="underline">                                                                                                
+</span>                                                                                                                                            
+     <span class="bold">-E</span>, <span class="bold">--extended-regexp</span>                                                                                                                  
+             Interpret <span class="underline">pattern as an extended regular expression (i.e. force <span class="bold">grep</span></span> to behave as <span class="bold">egrep</span>).                                      
+                                                                                                                                            
+     <span class="bold">-e</span> <span class="underline">pattern, <span class="bold">--regexp</span></span>=<span class="underline">pattern</span>                                                                                                           
+<span class="underline">             Specify a pattern used during the search of the input: an input line is selected if it matches                                 
+             any of the specified patterns.  This option is most useful when multiple <span class="bold">-e</span></span> options are used<span class="underline">                                   
+</span>             to specify multiple patterns, or when a pattern begins with a dash (`-').                                                      
+                                                                                                                                            
+     <span class="bold">--exclude</span>                                                                                                                              
+             If specified, it excludes files matching the given filename pattern from the search.  Note                                     
+             that <span class="bold">--exclude</span> patterns take priority over <span class="bold">--include</span> patterns, and if no <span class="bold">--include</span> pattern is                                  
+             specified, all files are searched that are not excluded.  Patterns are matched to the full                                     
+             path specified, not only to the filename component.                                                                            
+                                                                                                                                            
+     <span class="bold">--exclude-dir</span>                                                                                                                          
+             If <span class="bold">-R</span> is specified, it excludes directories matching the given filename pattern from the                                       
+             search.  Note that <span class="bold">--exclude-dir</span> patterns take priority over <span class="bold">--include-dir</span> patterns, and if no                                 
+             <span class="bold">--include-dir</span> pattern is specified, all directories are searched that are not excluded.                                        
+                                                                                                                                            
+     <span class="bold">-F</span>, <span class="bold">--fixed-strings</span>                                                                                                                    
+             Interpret <span class="underline">pattern as a set of fixed strings (i.e. force <span class="bold">grep</span></span> to behave as <span class="bold">fgrep</span>).                                              
+                                                                                                                                            
+     <span class="bold">-f</span> <span class="underline">file, <span class="bold">--file</span></span>=<span class="underline">file</span>                                                                                                                   
+<span class="underline">             Read one or more newline separated patterns from <span class="underline">file.  Empty pattern lines match every input</span>                                  
+<span class="underline">             line.  Newlines are not considered part of a pattern.  If <span class="underline">file is empty, nothing is matched.</span>                                   
+<span class="underline">                                                                                                                                            
+     <span class="bold">-G</span></span></span></span>, <span class="bold">--basic-regexp</span><span class="underline"><span class="underline"><span class="underline">                                                                                                                     
+</span></span></span>             Interpret <span class="underline">pattern as a basic regular expression (i.e. force <span class="bold">grep</span></span> to behave as traditional                                      
+             <span class="bold">grep</span>).                                                                                                                         
+                                                                                                                                            
+     <span class="bold">-H</span>      Always print filename headers with output lines.                                                                               
+                                                                                                                                            
+     <span class="bold">-h</span>, <span class="bold">--no-filename</span>                                                                                                                      
+             Never print filename headers (i.e. filenames) with output lines.                                                               
+                                                                                                                                            
+     <span class="bold">--help</span>  Print a brief help message.                                                                                                    
+                                                                                                                                            
+     <span class="bold">-I</span>      Ignore binary files.  This option is equivalent to <span class="bold">--binary-file</span>=<span class="underline">without-match option.</span>                                         
+<span class="underline">                                                                                                                                            
+     <span class="bold">-i</span></span>, <span class="bold">--ignore-case</span><span class="underline">                                                                                                                      
+</span>             Perform case insensitive matching.  By default, <span class="bold">grep</span> is case sensitive.                                                        
+                                                                                                                                            
+     <span class="bold">--include</span>                                                                                                                              
+             If specified, only files matching the given filename pattern are searched.  Note that                                          
+             <span class="bold">--exclude</span> patterns take priority over <span class="bold">--include</span> patterns.  Patterns are matched to the full                                    
+             path specified, not only to the filename component.                                                                            
+                                                                                                                                            
+     <span class="bold">--include-dir</span>                                                                                                                          
+             If <span class="bold">-R</span> is specified, only directories matching the given filename pattern are searched.  Note                                   
+             that <span class="bold">--exclude-dir</span> patterns take priority over <span class="bold">--include-dir</span> patterns.                                                         
+                                                                                                                                            
+     <span class="bold">-J,</span> <span class="bold">--bz2decompress</span>                                                                                                                    
+             Decompress the bzip2(1) compressed file before looking for the text.                                                           
+                                                                                                                                            
+     <span class="bold">-L</span>, <span class="bold">--files-without-match</span>                                                                                                              
+             Only the names of files not containing selected lines are written to standard output.  Path-                                   
+             names are listed once per file searched.  If the standard input is searched, the string                                        
+             ``(standard input)'' is written.                                                                                               
+                                                                                                                                            
+     <span class="bold">-l</span>, <span class="bold">--files-with-matches</span>                                                                                                               
+             Only the names of files containing selected lines are written to standard output.  <span class="bold">grep</span> will                                   
+             only search a file until a match has been found, making searches potentially less expensive.                                   
+             Pathnames are listed once per file searched.  If the standard input is searched, the string                                    
+             ``(standard input)'' is written.                                                                                               
+                                                                                                                                            
+     <span class="bold">--mmap</span>  Use mmap(2) instead of read(2) to read input, which can result in better performance under                                     
+             some circumstances but can cause undefined behaviour.                                                                          
+                                                                                                                                            
+     <span class="bold">-m</span> <span class="underline">num, <span class="bold">--max-count</span></span>=<span class="underline">num</span>                                                                                                                
+<span class="underline">             Stop reading the file after <span class="underline">num matches.</span>                                                                                       
+<span class="underline">                                                                                                                                            
+     <span class="bold">-n</span></span></span>, <span class="bold">--line-number</span><span class="underline"><span class="underline">                                                                                                                      
+</span></span>             Each output line is preceded by its relative line number in the file, starting at line 1.  The                                 
+             line number counter is reset for each file processed.  This option is ignored if <span class="bold">-c</span>, <span class="bold">-L</span>, <span class="bold">-l</span>,                                   
+             or <span class="bold">-q</span> is specified.                                                                                                            
+                                                                                                                                            
+     <span class="bold">--null</span>  Prints a zero-byte after the file name.                                                                                        
+                                                                                                                                            
+     <span class="bold">-O</span>      If <span class="bold">-R</span> is specified, follow symbolic links only if they were explicitly listed on the command                                   
+             line.  The default is not to follow symbolic links.                                                                            
+                                                                                                                                            
+     <span class="bold">-o,</span> <span class="bold">--only-matching</span>                                                                                                                    
+             Prints only the matching part of the lines.                                                                                    
+                                                                                                                                            
+     <span class="bold">-p</span>      If <span class="bold">-R</span> is specified, no symbolic links are followed.  This is the default.                                                      
+                                                                                                                                            
+     <span class="bold">-q</span>, <span class="bold">--quiet</span>, <span class="bold">--silent</span>                                                                                                                  
+             Quiet mode: suppress normal output.  <span class="bold">grep</span> will only search a file until a match has been                                       
+             found, making searches potentially less expensive.                                                                             
+                                                                                                                                            
+     <span class="bold">-R</span>, <span class="bold">-r</span>, <span class="bold">--recursive</span>                                                                                                                    
+             Recursively search subdirectories listed.                                                                                      
+                                                                                                                                            
+     <span class="bold">-S</span>      If <span class="bold">-R</span> is specified, all symbolic links are followed.  The default is not to follow symbolic                                    
+             links.                                                                                                                         
+                                                                                                                                            
+     <span class="bold">-s</span>, <span class="bold">--no-messages</span>                                                                                                                      
+             Silent mode.  Nonexistent and unreadable files are ignored (i.e. their error messages are sup-                                 
+             pressed).                                                                                                                      
+                                                                                                                                            
+     <span class="bold">-U</span>, <span class="bold">--binary</span>                                                                                                                           
+             Search binary files, but do not attempt to print them.                                                                         
+                                                                                                                                            
+     <span class="bold">-V</span>, <span class="bold">--version</span>                                                                                                                          
+             Display version information and exit.                                                                                          
+                                                                                                                                            
+     <span class="bold">-v</span>, <span class="bold">--invert-match</span>                                                                                                                     
+             Selected lines are those <span class="underline">not matching any of the specified patterns.</span>                                                           
+<span class="underline">                                                                                                                                            
+     <span class="bold">-w</span></span>, <span class="bold">--word-regexp</span><span class="underline">                                                                                                                      
+</span>             The expression is searched for as a word (as if surrounded by `[[:&lt;:]]' and `[[:&gt;:]]'; see                                     
+             re_format(7)).                                                                                                                 
+                                                                                                                                            
+     <span class="bold">-x</span>, <span class="bold">--line-regexp</span>                                                                                                                      
+             Only input lines selected against an entire fixed string or regular expression are considered                                  
+             to be matching lines.                                                                                                          
+                                                                                                                                            
+     <span class="bold">-y</span>      Equivalent to <span class="bold">-i</span>.  Obsoleted.                                                                                                  
+                                                                                                                                            
+     <span class="bold">-Z</span>, <span class="bold">-z</span>, <span class="bold">--decompress</span>                                                                                                                   
+             Force <span class="bold">grep</span> to behave as <span class="bold">zgrep</span>.                                                                                                 
+                                                                                                                                            
+     <span class="bold">--binary-files</span>=<span class="underline">value</span>                                                                                                                   
+<span class="underline">             Controls searching and printing of binary files.  Options are <span class="underline">binary, the default: search</span>                                      
+<span class="underline">             binary files but do not print them; <span class="underline">without-match: do not search binary files; and <span class="underline">text: treat</span></span>                                 
+<span class="underline"><span class="underline">             all files as text.                                                                                                             
+                                                                                                                                            
+     <span class="bold">--context</span></span></span></span></span>[=<span class="underline">num]<span class="underline"><span class="underline"><span class="underline">                                                                                                                        
+</span></span></span>             Print <span class="underline">num lines of leading and trailing context.  The default is 2.</span>                                                            
+<span class="underline">                                                                                                                                            
+     <span class="bold">--line-buffered</span>                                                                                                                        
+</span></span>             Force output to be line buffered.  By default, output is line buffered when standard output is                                 
+             a terminal and block buffered otherwise.                                                                                       
+                                                                                                                                            
+     If no file arguments are specified, the standard input is used.                                                                        
+                                                                                                                                            
+<span class="bold">ENVIRONMENT</span>                                                                                                                                 
+     GREP_OPTIONS  May be used to specify default options that will be placed at the beginning of the argu-                                 
+                   ment list.  Backslash-escaping is not supported, unlike the behavior in GNU grep.                                        
+                                                                                                                                            
+<span class="bold">EXIT</span> <span class="bold">STATUS</span>                                                                                                                                 
+     The <span class="bold">grep</span> utility exits with one of the following values:                                                                               
+                                                                                                                                            
+     0     One or more lines were selected.                                                                                                 
+     1     No lines were selected.                                                                                                          
+     &gt;1    An error occurred.                                                                                                               
+<span class="bold"><span class="f2">mboisson<span class="bold"><span class="f4"> ~/data/Users/nelle/writing $</span></span></span></span>                                                                                                       
 
 
 
