@@ -1,0 +1,277 @@
+[?1034h[01;32mmboisson[01;34m ~ $[00m cd data
+[01;32mmboisson[01;34m ~/data $[00m ls
+Users	bin	data	tmp
+[01;32mmboisson[01;34m ~/data $[00m clear
+[H[2J[01;32mmboisson[01;34m ~/data $[00m whoami
+mboisson
+[01;32mmboisson[01;34m ~/data $[00m whereami
+bash: whereami: command not found
+[01;32mmboisson[01;34m ~/data $[00m pwd
+/Users/mboisson/data
+[01;32mmboisson[01;34m ~/data $[00m ls
+Users	bin	data	tmp
+[01;32mmboisson[01;34m ~/data $[00m cd C:/Users[K[K[K[K[K[K[K[K[K[K[Kcd ..
+[01;32mmboisson[01;34m ~ $[00m cd /Users/mboisson/data
+[01;32mmboisson[01;34m ~/data $[00m ls
+Users	bin	data	tmp
+[01;32mmboisson[01;34m ~/data $[00m ls -F 
+Users/	bin/	data/	tmp/
+[01;32mmboisson[01;34m ~/data $[00m cd Usersn[K/nelle
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m ls
+Desktop			molecules		pizza.cfg
+creatures		north-pacific-gyre	solar.pdf
+data			notes.txt		writing
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m ls -F
+Desktop/		molecules/		pizza.cfg
+creatures/		north-pacific-gyre/	solar.pdf
+data/			notes.txt		writing/
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd ..
+[01;32mmboisson[01;34m ~/data/Users $[00m cd ../..[K[K[K
+[01;32mmboisson[01;34m ~/data $[00m cd Users/
+imhotep/ larry/   nelle/   
+[01;32mmboisson[01;34m ~/data $[00m cd Users/nelle/
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m ls
+Desktop			molecules		pizza.cfg
+creatures		north-pacific-gyre	solar.pdf
+data			notes.txt		writing
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd Users/mboisson/Users/mboisson[C[C[C[C[C[C[C[C[C[C[C[C[C[C/Desktop
+[01;32mmboisson[01;34m ~/Desktop $[00m ls[K[Kpwd
+/Users/mboisson/Desktop
+[01;32mmboisson[01;34m ~/Desktop $[00m cd 
+[01;32mmboisson[01;34m ~ $[00m cd data/Users/nelle
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m ls
+Desktop			molecules		pizza.cfg
+creatures		north-pacific-gyre	solar.pdf
+data			notes.txt		writing
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd [K[K[Kmkdir theis[K[Ksis
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m ls -F
+Desktop/		molecules/		pizza.cfg		writing/
+creatures/		north-pacific-gyre/	solar.pdf
+data/			notes.txt		thesis/
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd thesis/
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m nan [Ko draft.txt
+[?1049h[1;27r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6                           File: draft.txt                                                             [25;54H[ New File ][26d^G(B[m Get Help[26;20H(B[0;7m^O(B[m WriteOut[26;39H(B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page[77G(B[0;7m^K(B[m Cut Text[26;96H(B[0;7m^C(B[m Cur Pos[27d(B[0;7m^X(B[m Exit[27;20H(B[0;7m^J(B[m Justify[27;39H(B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m To Spell[3d[1;110H(B[0;7mModified[3d(B[mq[25d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                           [26;1H Y(B[m Yes[K[27d(B[0;7m N(B[m No  [27;17H(B[0;7m^C(B[m Cancel[K[25;62H[26d[J[27;119H[27;1H[?1049l[?1l>[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m 
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m nano draft.txt
+[?1049h[1;27r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6                           File: draft.txt                                                             [25;54H[ New File ][26d^G(B[m Get Help[26;20H(B[0;7m^O(B[m WriteOut[26;39H(B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page[77G(B[0;7m^K(B[m Cut Text[26;96H(B[0;7m^C(B[m Cur Pos[27d(B[0;7m^X(B[m Exit[27;20H(B[0;7m^J(B[m Justify[27;39H(B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m To Spell[3d[26d[J[27;119H[27;1H[?1049l[?1l>[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m nano draft.txt
+[?1049h[1;27r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6                           File: draft.txt                                                             [25;54H[ New File ][26d^G(B[m Get Help[26;20H(B[0;7m^O(B[m WriteOut[26;39H(B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page[77G(B[0;7m^K(B[m Cut Text[26;96H(B[0;7m^C(B[m Cur Pos[27d(B[0;7m^X(B[m Exit[27;20H(B[0;7m^J(B[m Justify[27;39H(B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m To Spell[3d[26d[J[27;119H[27;1H[?1049l[?1l>[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m reset
+[3g        H        H        H        H        H        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m 
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m resetnano draft.txt
+[?1049h[1;27r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6                           File: draft.txt                                                             [25;54H[ New File ][26d^G(B[m Get Help[26;20H(B[0;7m^O(B[m WriteOut[26;39H(B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page[77G(B[0;7m^K(B[m Cut Text[26;96H(B[0;7m^C(B[m Cur Pos[27d(B[0;7m^X(B[m Exit[27;20H(B[0;7m^J(B[m Justify[27;39H(B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m To Spell[3d[1;110H(B[0;7mModified[3d(B[mIt's not "publish or peri[25d[K[3;26Hsh",   anymore, [4dit's "share and thrive"[5d[25d(B[0;7mFile Name to Write: draft.txt                                                                                          [26;20H(B[m          (B[0;7m^T(B[m To Files          [58G (B[0;7mM-M(B[m Mac Format[15X[26;88H(B[0;7mM-P(B[m Prepend[K[27;2H(B[0;7mC(B[m Cancel[27;20H          (B[0;7mM-D(B[m DOS Format      [27;58H (B[0;7mM-A(B[m Append [77G           (B[0;7mM-B(B[m Backup File[K[25;30H[1;110H[39;49m(B[0;7m        [25;51H(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[26;20H(B[0;7m^O(B[m WriteOut        (B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page       (B[0;7m^K(B[m Cut Text        (B[0;7m^C(B[m Cur Pos[27;2H(B[0;7mX(B[m Exit  [27;20H(B[0;7m^J(B[m Justify         (B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text      (B[0;7m^T(B[m To Spell[5d[26d[J[27;119H[27;1H[?1049l[?1l>[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls -l[KF
+draft.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m cat draft.txt 
+It's not "publish or perish" anymore, 
+it's "share and thrive"
+
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m rm draft.txt 
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m cd ..
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m rm thesis
+rm: thesis: is a directory
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m rmd [Kir thesis/
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m r[Kmd[Kkdir theis[K[Ksis
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd mkdir[K[K[K[K[Kthesis
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m nano draft.txt
+[?1049h[1;27r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6                           File: draft.txt                                                             [25;54H[ New File ][26d^G(B[m Get Help[26;20H(B[0;7m^O(B[m WriteOut[26;39H(B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page[77G(B[0;7m^K(B[m Cut Text[26;96H(B[0;7m^C(B[m Cur Pos[27d(B[0;7m^X(B[m Exit[27;20H(B[0;7m^J(B[m Justify[27;39H(B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m To Spell[3d[1;110H(B[0;7mModified[3d(B[moinasfobinasfboin[4d[25d(B[0;7mFile Name to Write: draft.txt                                                                                          [26;20H(B[m          (B[0;7m^T(B[m To Files          [58G (B[0;7mM-M(B[m Mac Format[15X[26;88H(B[0;7mM-P(B[m Prepend[K[27;2H(B[0;7mC(B[m Cancel[27;20H          (B[0;7mM-D(B[m DOS Format      [27;58H (B[0;7mM-A(B[m Append [77G           (B[0;7mM-B(B[m Backup File[K[25;30H[1;110H[39;49m(B[0;7m        [25;51H(B[m[1K (B[0;7m[ Wrote 2 lines ](B[m[K[26;20H(B[0;7m^O(B[m WriteOut        (B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page       (B[0;7m^K(B[m Cut Text        (B[0;7m^C(B[m Cur Pos[27;2H(B[0;7mX(B[m Exit  [27;20H(B[0;7m^J(B[m Justify         (B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text      (B[0;7m^T(B[m To Spell[4d[26d[J[27;119H[27;1H[?1049l[?1l>[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls -lh[K[K[K-F
+draft.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m rm -i draft.txt 
+remove draft.txt? n
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m cd ..
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m rm -r thesis/
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd thesis
+bash: cd: thesis: No such file or directory
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m c[Kmkdir thesis
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd dr[K[Kthesis/
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m nano draft.txt
+[?1049h[1;27r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6                           File: draft.txt                                                             [25;54H[ New File ][26d^G(B[m Get Help[26;20H(B[0;7m^O(B[m WriteOut[26;39H(B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page[77G(B[0;7m^K(B[m Cut Text[26;96H(B[0;7m^C(B[m Cur Pos[27d(B[0;7m^X(B[m Exit[27;20H(B[0;7m^J(B[m Justify[27;39H(B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text[96G(B[0;7m^T(B[m To Spell[3d[1;110H(B[0;7mModified[3d(B[moinafoibnabfoin[25d(B[0;7mFile Name to Write: draft.txt                                                                                          [26;20H(B[m          (B[0;7m^T(B[m To Files          [58G (B[0;7mM-M(B[m Mac Format[15X[26;88H(B[0;7mM-P(B[m Prepend[K[27;2H(B[0;7mC(B[m Cancel[27;20H          (B[0;7mM-D(B[m DOS Format      [27;58H (B[0;7mM-A(B[m Append [77G           (B[0;7mM-B(B[m Backup File[K[25;30H[1;110H[39;49m(B[0;7m        [25;51H(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[26;20H(B[0;7m^O(B[m WriteOut        (B[0;7m^R(B[m Read File[58G(B[0;7m^Y(B[m Prev Page       (B[0;7m^K(B[m Cut Text        (B[0;7m^C(B[m Cur Pos[27;2H(B[0;7mX(B[m Exit  [27;20H(B[0;7m^J(B[m Justify         (B[0;7m^W(B[m Where Is[27;58H(B[0;7m^V(B[m Next Page[77G(B[0;7m^U(B[m UnCut Text      (B[0;7m^T(B[m To Spell[3;16H[26d[J[27;119H[27;1H[?1049l[?1l>[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls
+draft.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m mv draft.txt quotation.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls
+quotation.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls
+quotation.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m cp quotation.txt quotation.txt.backup
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls
+quotation.txt           quotation.txt.backup
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m cat qut[Kotation.txt quotation.txt.backup 
+oinafoibnabfoin
+oinafoibnabfoin
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m rm quotation.txt.backup 
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m ls
+quotation.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/thesis $[00m cd ..
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m ls
+Desktop                 molecules               pizza.cfg               writing
+creatures               north-pacific-gyre      solar.pdf
+data                    notes.txt               thesis
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd molecules/
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m ls
+cubane.pdb      ethane.pdb      methane.pdb     octane.pdb      pentane.pdb     propane.pdb
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m cd[K[Kcat cubane.pdb 
+COMPND      CUBANE
+AUTHOR      DAVE WOODCOCK  95 12 06
+ATOM      1  C           1       0.789  -0.852   0.504  1.00  0.00
+ATOM      2  C           1      -0.161  -1.104  -0.624  1.00  0.00
+ATOM      3  C           1      -1.262  -0.440   0.160  1.00  0.00
+ATOM      4  C           1      -0.289  -0.202   1.284  1.00  0.00
+ATOM      5  C           1       1.203   0.513  -0.094  1.00  0.00
+ATOM      6  C           1       0.099   1.184   0.694  1.00  0.00
+ATOM      7  C           1      -0.885   0.959  -0.460  1.00  0.00
+ATOM      8  C           1       0.236   0.283  -1.269  1.00  0.00
+ATOM      9  H           1       1.410  -1.631   0.942  1.00  0.00
+ATOM     10  H           1      -0.262  -2.112  -1.024  1.00  0.00
+ATOM     11  H           1      -2.224  -0.925   0.328  1.00  0.00
+ATOM     12  H           1      -0.468  -0.501   2.315  1.00  0.00
+ATOM     13  H           1       2.224   0.892  -0.134  1.00  0.00
+ATOM     14  H           1       0.240   2.112   1.251  1.00  0.00
+ATOM     15  H           1      -1.565   1.730  -0.831  1.00  0.00
+ATOM     16  H           1       0.472   0.494  -2.315  1.00  0.00
+TER      17              1
+END
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m ls
+cubane.pdb      ethane.pdb      methane.pdb     octane.pdb      pentane.pdb     propane.pdb
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m wc *.pdb
+      20     156    1158 cubane.pdb
+      12      84     622 ethane.pdb
+       9      57     422 methane.pdb
+      30     246    1828 octane.pdb
+      21     165    1226 pentane.pdb
+      15     111     825 propane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m wc *.pdb > lengths.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m ls
+cubane.pdb      ethane.pdb      lengths.txt     methane.pdb     octane.pdb      pentane.pdb     propane.pdb
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m cat lengths.txt 
+      20     156    1158 cubane.pdb
+      12      84     622 ethane.pdb
+       9      57     422 methane.pdb
+      30     246    1828 octane.pdb
+      21     165    1226 pentane.pdb
+      15     111     825 propane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m sort -n lengths.txt 
+       9      57     422 methane.pdb
+      12      84     622 ethane.pdb
+      15     111     825 propane.pdb
+      20     156    1158 cubane.pdb
+      21     165    1226 pentane.pdb
+      30     246    1828 octane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m sort -n lengths.txt > lengths-sorted.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m cat lengths-sorted.txt 
+       9      57     422 methane.pdb
+      12      84     622 ethane.pdb
+      15     111     825 propane.pdb
+      20     156    1158 cubane.pdb
+      21     165    1226 pentane.pdb
+      30     246    1828 octane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m head -1 lengths-sorted.txt 
+       9      57     422 methane.pdb
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m s[Kls
+cubane.pdb              lengths-sorted.txt      methane.pdb             pentane.pdb
+ethane.pdb              lengths.txt             octane.pdb              propane.pdb
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m wc *.pdb
+      20     156    1158 cubane.pdb
+      12      84     622 ethane.pdb
+       9      57     422 methane.pdb
+      30     246    1828 octane.pdb
+      21     165    1226 pentane.pdb
+      15     111     825 propane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m wc *.pdb | sort -n
+       9      57     422 methane.pdb
+      12      84     622 ethane.pdb
+      15     111     825 propane.pdb
+      20     156    1158 cubane.pdb
+      21     165    1226 pentane.pdb
+      30     246    1828 octane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m wc *.pdb | sort -n[1P[C[C[1P
+       9      57     422 methane.pdb
+      12      84     622 ethane.pdb
+      15     111     825 propane.pdb
+      20     156    1158 cubane.pdb
+      21     165    1226 pentane.pdb
+      30     246    1828 octane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m wc *.pdb|sort -n[1@ [C[1@ 
+       9      57     422 methane.pdb
+      12      84     622 ethane.pdb
+      15     111     825 propane.pdb
+      20     156    1158 cubane.pdb
+      21     165    1226 pentane.pdb
+      30     246    1828 octane.pdb
+     107     819    6081 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m wc *.pdb | sort -n | wc [K[Kh[K[Khead -1
+       9      57     422 methane.pdb
+[01;32mmboisson[01;34m ~/data/Users/nelle/molecules $[00m cd ..
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m ls
+Desktop                 molecules               pizza.cfg               writing
+creatures               north-pacific-gyre      solar.pdf
+data                    notes.txt               thesis
+[01;32mmboisson[01;34m ~/data/Users/nelle $[00m cd north-pacific-gyre/2012-07-03/
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m ls
+NENE01729A.txt  NENE01751A.txt  NENE01843A.txt  NENE01978A.txt  NENE02040A.txt  NENE02043A.txt  goostats
+NENE01729B.txt  NENE01751B.txt  NENE01843B.txt  NENE01978B.txt  NENE02040B.txt  NENE02043B.txt
+NENE01736A.txt  NENE01812A.txt  NENE01971Z.txt  NENE02018B.txt  NENE02040Z.txt  goodiff
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m wc *.txt
+     300     300    4406 NENE01729A.txt
+     300     300    4400 NENE01729B.txt
+     300     300    4371 NENE01736A.txt
+     300     300    4411 NENE01751A.txt
+     300     300    4409 NENE01751B.txt
+     300     300    4401 NENE01812A.txt
+     300     300    4395 NENE01843A.txt
+     300     300    4375 NENE01843B.txt
+     300     300    4372 NENE01971Z.txt
+     300     300    4381 NENE01978A.txt
+     300     300    4389 NENE01978B.txt
+     240     240    3517 NENE02018B.txt
+     300     300    4391 NENE02040A.txt
+     300     300    4367 NENE02040B.txt
+     300     300    4381 NENE02040Z.txt
+     300     300    4386 NENE02043A.txt
+     300     300    4393 NENE02043B.txt
+    5040    5040   73745 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m wc *.txt | w[Ksort -n
+     240     240    3517 NENE02018B.txt
+     300     300    4367 NENE02040B.txt
+     300     300    4371 NENE01736A.txt
+     300     300    4372 NENE01971Z.txt
+     300     300    4375 NENE01843B.txt
+     300     300    4381 NENE01978A.txt
+     300     300    4381 NENE02040Z.txt
+     300     300    4386 NENE02043A.txt
+     300     300    4389 NENE01978B.txt
+     300     300    4391 NENE02040A.txt
+     300     300    4393 NENE02043B.txt
+     300     300    4395 NENE01843A.txt
+     300     300    4400 NENE01729B.txt
+     300     300    4401 NENE01812A.txt
+     300     300    4406 NENE01729A.txt
+     300     300    4409 NENE01751B.txt
+     300     300    4411 NENE01751A.txt
+    5040    5040   73745 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m wc *.txt | sort -n| [K[K | head -1
+     240     240    3517 NENE02018B.txt
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m wc *.txt | sort -n | head -1[K[K[K[K[K[K[Kti[Kail -1
+    5040    5040   73745 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m wc *.txt | sort -n | tail -13[K[K3
+     300     300    4409 NENE01751B.txt
+     300     300    4411 NENE01751A.txt
+    5040    5040   73745 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m wc *.txt | sort -n | tail -31head[C[C[C[K[Kls[Kcd north-pacific-gyre/2012-07-03/ls[Kwc *.txt | sort -n | head -1tail[C[C[C3[Kwc *.txt | sort -n | tail -3
+     300     300    4409 NENE01751B.txt
+     300     300    4411 NENE01751A.txt
+    5040    5040   73745 total
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m ls[K[K
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m [A[K[Kls
+NENE01729A.txt  NENE01751A.txt  NENE01843A.txt  NENE01978A.txt  NENE02040A.txt  NENE02043A.txt  goostats
+NENE01729B.txt  NENE01751B.txt  NENE01843B.txt  NENE01978B.txt  NENE02040B.txt  NENE02043B.txt
+NENE01736A.txt  NENE01812A.txt  NENE01971Z.txt  NENE02018B.txt  NENE02040Z.txt  goodiff
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m ls
+NENE01729A.txt  NENE01751A.txt  NENE01843A.txt  NENE01978A.txt  NENE02040A.txt  NENE02043A.txt  goostats
+NENE01729B.txt  NENE01751B.txt  NENE01843B.txt  NENE01978B.txt  NENE02040B.txt  NENE02043B.txt
+NENE01736A.txt  NENE01812A.txt  NENE01971Z.txt  NENE02018B.txt  NENE02040Z.txt  goodiff
+[01;32mmboisson[01;34m ~/data/Users/nelle/north-pacific-gyre/2012-07-03 $[00m 
